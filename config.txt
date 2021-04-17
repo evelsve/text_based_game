@@ -1,0 +1,44 @@
+#Rooms
+room Hall
+room Kitchen
+room Storage
+room Bedroom
+room Office
+room Chamber_of_Secrets
+room Bathroom
+
+
+#Doors
+door N-S open Hall Bedroom
+door S-N locked Hall Bathroom
+door N-S closed Storage Kitchen 
+door E-W locked Hall Storage 
+door E-W open Bedroom Kitchen
+door N-S locked Office Chamber_of_Secrets
+door N-S open Kitchen Office
+
+#Items
+item sink Bathroom STATIONARY 
+item shower Bathroom STATIONARY
+item toilet Bathroom STATIONARY
+item box Storage STATIONARY 
+item hour_glass Kitchen STATIONARY
+item bookshelf Office STATIONARY
+item armchair Hall SIT
+item piano Hall PLAY
+item rock Chamber_of_Secrets STATIONARY
+item sofa Hall SIT
+item bed Bedroom SIT
+item mirror Hall USE
+item chair Kitchen SIT
+item oven Kitchen USE
+item table Kitchen STATIONARY
+item new_book Office USE read
+item old_book Office USE read
+item knife Kitchen MOVE
+item key Hall USE unlock
+item golden_key Office USE unlock
+item big_box Storage STATIONARY 
+
+#Player information
+player Hall 
